@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Bulletin Board</title>
+
+</head>
+
+<body>
+<div class="container">
+  <h1>Said's BulletinBoard</h1>
+  <a href="newpost" class="newbord">New Bord</a>
+
+  <hr>
+
+  <% if (posts.length) { %>
+    <% for(var i = 0 ; i < posts.length ; i++) { %>
+     
+        <div class="bord">
+          <h5 class="bordtitle"><%= posts[i].title %></h5>
+          <p class="bordtext"><%= posts[i].body %></p>
+        </div>
+    
+    <% } %> <% } %>
+</div>
+</body>
+</html>

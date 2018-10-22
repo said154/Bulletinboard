@@ -1,0 +1,16 @@
+{
+  "name": "bulletinboard",
+  "version": "1.0.0",
+  "description": "bulletinboard",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "said azarfane",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^6.1.0",
+    "ejs": "^2.6.1",
+    "pg": "^7.5.0"
+  }
+}
